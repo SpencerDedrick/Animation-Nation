@@ -1459,7 +1459,14 @@ let cards = [
 	imageLink: "./Art/Alara Joel/stealth ghost.png",
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
-}
+},
+{
+	artName: "Are You Okay?",
+	pageLink: "./Art/SpenceD/index.html",
+	imageLink: "./Art/SpenceD/animation/Art.gif",
+	author: "Spence D",
+	githubLink: "https://github.com/SpencerDedrick"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+

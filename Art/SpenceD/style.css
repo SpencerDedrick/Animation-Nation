@@ -1,0 +1,40 @@
+
+body{
+    background: black; 
+}
+div{
+    margin: 50%;
+    width: 175px;
+    position: relative;
+}
+
+h1 {
+    top: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    animation: text-color-change 2s infinite;
+   
+}
+
+#animation{
+    top: 200px;
+    margin: auto;
+    width: 175px;
+    height: 235px;
+    background-image : url(./Animation/Terry.png);
+    animation: sprite 1s steps(9) infinite;
+  }
+
+  @keyframes sprite{
+    from{background-position-x:0px;}
+    to{background-position-x:-1647px;}
+  }
+
+  @keyframes text-color-change {
+    0% { text-shadow: -1px -1px  10px red; }
+    50% {  text-shadow: -1px -1px  10px blue; }
+    100% {  text-shadow: -1px -1px  10px red; }
